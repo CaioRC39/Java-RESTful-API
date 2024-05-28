@@ -22,10 +22,13 @@ public class AboutMeExcecção {
         System.out.println("Olá! Me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + " metros");
+
+        scanner.close();
         }
         catch (InputMismatchException erroNumero) {
             System.err.println("Os campos idade e altura devem ser numéricos");
         }
+    
     }
 
 }

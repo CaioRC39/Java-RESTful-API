@@ -5,7 +5,7 @@ public class FormatadorCep {
             System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
             // TODO Auto-generated catch block
-            System.err.println("O CEP deve contem 8 dígitos");;
+            System.err.println("O CEP deve conter 8 dígitos");;
         }
     }
 
